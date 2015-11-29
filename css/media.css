@@ -1,0 +1,128 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.personal_last_block {
+		margin-top: 35px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.resume_container .left,
+	.section_content .resume_container h3,
+	.resume_container .resume_icon {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.resume_container .left h3 {
+		margin-top: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+		font-size: 2em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main_footer {
+		text-align: left;
+	}
+	
+	.social-media li i {
+		font-size: 2em;
+	}
+	.form-group
+			input{
+				width: 90%;
+			}
+	.form-group
+		textarea{
+			width: 90%;
+		}
+	.form-group
+		.text-danger {
+			margin: 0 10px;
+		}
+	.person
+		p{
+			width: 98%;
+			letter-spacing: 0;
+			font-size: 0.85em;
+			line-height: 180%!impottant;
+			margin-bottom: 25px;
+	}
+	.person
+		h4{
+			font-size: .75em;
+			line-height: 120%;
+			width: 100% !important;
+			padding: 13px;
+			line-height: 150%!important;
+			letter-spacing: 2px;
+		}
+	.person
+		img{
+			height: 240px;
+			width: 240px;
+		}
+	.person
+		h2{
+			font-size: 1.65em;
+			font-weight: 700;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 30px 0 30px 0;
+		}
+	.s_descr_wrap
+		.s_descr{
+			width: 88%;
+			letter-spacing: 0;
+			font-size: 12px;
+			line-height: 180%!impottant;
+			margin-bottom: 45px;
+			font-weight: 600;
+	}
+		
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

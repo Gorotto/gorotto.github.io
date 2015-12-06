@@ -21,11 +21,13 @@ $(window).load(function() {
 	loop: true,
 	margin: 35,
 	//autoplay: true,
-	autoplayTimeout: 2000,
+	//autoplayTimeout: 2000,
 	//autoplayHoverPause:true,
-	autoplaySpeed: 4000
+	//autoplaySpeed: 4000,
+	nav : true,
+	navText: ["prev","next"],
+	pagination : true,
+		
+	});
 	
-	
- 
-  });
 });

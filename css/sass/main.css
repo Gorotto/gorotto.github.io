@@ -83,20 +83,29 @@ body {
   height: 160px; }
 
 /* line 72, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+#owl-demo-1 .owl-controls .owl-nav {
+  position: absolute; }
+  /* line 74, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  #owl-demo-1 .owl-controls .owl-nav .owl-prev {
+    height: 20px;
+    width: 20px;
+    background: url(img/btn.next.png); }
+
+/* line 83, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
 .content_2 {
   font-family: "RobotoRegular" , sans-serif;
   background: #E8EBF2;
   padding-bottom: 40px; }
-  /* line 76, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 87, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 .content_2_text {
     width: 1000px;
     margin: auto;
     height: auto; }
-  /* line 82, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 93, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 a {
     width: 250px;
     height: 45px; }
-  /* line 85, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 96, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 h1 {
     float: left;
     font-size: 15px;
@@ -104,30 +113,39 @@ body {
     margin: -37px 0 0 61px;
     text-transform: uppercase; }
 
-/* line 92, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+/* line 103, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
 .portfolio {
   font-family: "RobotoRegular" , sans-serif;
   background-color: #fff; }
-  /* line 95, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 106, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio .portfolio_content {
     width: 1000px;
     margin: auto; }
-  /* line 98, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 109, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio a {
-    width: 250px;
-    height: 45px;
-    margin: 10px; }
-  /* line 102, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    width: 500px;
+    height: 25px;
+    margin: 15px 0 0 0; }
+  /* line 113, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio h1 {
     float: left;
     font-size: 15px;
     color: #000;
-    margin: -37px 0 0 61px;
+    margin: -20px 0px 0px 40px;
     text-transform: uppercase; }
-  /* line 109, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
-  .portfolio hr #first {
+  /* line 119, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio p {
+    width: 450px;
+    text-align: left;
+    line-height: 1.8; }
+  /* line 123, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio .row_2 {
+    margin-top: 50px; }
+  /* line 125, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio hr.first {
     width: 1000px;
     border-top: 1px solid rgba(158, 158, 158, 0.42);
-    margin-top: 7px; }
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

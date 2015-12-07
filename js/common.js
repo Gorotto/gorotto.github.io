@@ -24,7 +24,7 @@ $(window).load(function () {
 			0: {
 				items: 1,
 				nav: true,
-				margine: 35
+				margin: 35
 			},
 			600: {
 				items: 2,

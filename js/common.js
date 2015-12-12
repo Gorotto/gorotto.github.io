@@ -20,12 +20,12 @@ $(window).load(function () {
 		navText: ["prev", "next"],
 		//pagination : true,
 		items: 4,
-		responsiveClass:true,
+		responsiveClass:false,
 		responsive: {
 			0: {
 				items: 1,
 				nav: true,
-				margin: 35
+				
 			},
 			600: {
 				items: 2,

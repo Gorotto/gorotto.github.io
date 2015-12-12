@@ -109,13 +109,69 @@ body {
   .portfolio p {
     width: 450px;
     text-align: left;
-    line-height: 1.8; }
-  .portfolio .row_2 {
-    margin-top: 50px; }
+    line-height: 1.8;
+    padding-top: 15px; }
+  .portfolio .clients {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; }
   .portfolio hr.first {
     width: 1000px;
     border-top: 1px solid rgba(158, 158, 158, 0.42);
     margin-top: 10px;
     margin-bottom: 10px; }
+  .portfolio .td {
+    width: 154px;
+    height: 95px;
+    border: 20px;
+    color: #000; }
+  .portfolio .card {
+    width: 1000px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #E8FCFD; }
+    .portfolio .card .row {
+      border: 4px #000; }
+    .portfolio .card p {
+      width: 100%; }
+    .portfolio .card .btn {
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 2px;
+      border-radius: 8px;
+      padding: 11px 17px;
+      background-color: #6AD4E2;
+      transition: background-color 0.75s;
+      color: #000; }
+
+.footer {
+  background-color: #E8EBF2; }
+  .footer .foot {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "RobotoRegular", sans-serif; }
+  .footer h1 {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase; }
+  .footer li {
+    list-style-type: none;
+    margin-bottom: 12px; }
+  .footer ul {
+    padding: 0; }
+  .footer table {
+    border-collapse: inherit;
+    border-spacing: 10px 15px; }
+  .footer .copyright {
+    width: 1000px;
+    font-family: "RobotoRegular", sans-serif;
+    padding-bottom: 20px; }
+    .footer .copyright p {
+      margin-top: 34px;
+      width: 80%; }
 
 /*# sourceMappingURL=main.css.map */

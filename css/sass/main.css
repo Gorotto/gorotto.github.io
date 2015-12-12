@@ -91,21 +91,21 @@ body {
     width: 20px;
     background: url(img/btn.next.png); }
 
-/* line 83, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+/* line 81, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
 .content_2 {
   font-family: "RobotoRegular" , sans-serif;
   background: #E8EBF2;
   padding-bottom: 40px; }
-  /* line 87, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 85, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 .content_2_text {
     width: 1000px;
     margin: auto;
     height: auto; }
-  /* line 93, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 91, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 a {
     width: 250px;
     height: 45px; }
-  /* line 96, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 94, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .content_2 h1 {
     float: left;
     font-size: 15px;
@@ -113,39 +113,108 @@ body {
     margin: -37px 0 0 61px;
     text-transform: uppercase; }
 
-/* line 103, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+/* line 101, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
 .portfolio {
   font-family: "RobotoRegular" , sans-serif;
   background-color: #fff; }
-  /* line 106, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 104, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio .portfolio_content {
     width: 1000px;
     margin: auto; }
-  /* line 109, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 107, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio a {
     width: 500px;
     height: 25px;
     margin: 15px 0 0 0; }
-  /* line 113, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 111, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio h1 {
     float: left;
     font-size: 15px;
     color: #000;
     margin: -20px 0px 0px 40px;
     text-transform: uppercase; }
-  /* line 119, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  /* line 117, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio p {
     width: 450px;
     text-align: left;
-    line-height: 1.8; }
-  /* line 123, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
-  .portfolio .row_2 {
-    margin-top: 50px; }
-  /* line 125, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    line-height: 1.8;
+    padding-top: 15px; }
+  /* line 122, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio .clients {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  /* line 127, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
   .portfolio hr.first {
     width: 1000px;
     border-top: 1px solid rgba(158, 158, 158, 0.42);
     margin-top: 10px;
     margin-bottom: 10px; }
+  /* line 132, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio .td {
+    width: 154px;
+    height: 95px;
+    border: 20px;
+    color: #000; }
+  /* line 137, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .portfolio .card {
+    width: 1000px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #E8FCFD; }
+    /* line 144, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    .portfolio .card .row {
+      border: 4px #000; }
+    /* line 146, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    .portfolio .card p {
+      width: 100%; }
+    /* line 148, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    .portfolio .card .btn {
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 2px;
+      border-radius: 8px;
+      padding: 11px 17px;
+      background-color: #6AD4E2;
+      transition: background-color 0.75s;
+      color: #000; }
+
+/* line 157, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+.footer {
+  background-color: #E8EBF2; }
+  /* line 159, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer .foot {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "RobotoRegular" , sans-serif; }
+  /* line 165, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer h1 {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase; }
+  /* line 170, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer li {
+    list-style-type: none;
+    margin-bottom: 12px; }
+  /* line 173, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer ul {
+    padding: 0; }
+  /* line 175, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer table {
+    border-collapse: inherit;
+    border-spacing: 10px 15px; }
+  /* line 178, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+  .footer .copyright {
+    width: 1000px;
+    font-family: "RobotoRegular" , sans-serif;
+    padding-bottom: 20px; }
+    /* line 185, C:/Users/Oleg/Desktop/bis/css/sass/main.sass */
+    .footer .copyright p {
+      margin-top: 34px;
+      width: 80%; }
 
 /*# sourceMappingURL=main.css.map */

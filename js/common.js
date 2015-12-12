@@ -9,26 +9,7 @@ $(window).load(function () {
 		autoplayTimeout: 2000,
 		//autoplayHoverPause:true,
 		autoplaySpeed: 4000,
-		responsiveClass:true,
-		responsive: {
-			0: {
-				items: 1,
-				nav: true,
-				margin: 35,
-				autoWidth:true
-			},
-			600: {
-				items: 1,
-				nav: false,
-				autoWidth:true
-			},
-			1000: {
-				items: 1,
-				nav: true,
-				loop: false,
-				autoWidth:true
-			}
-		}
+		
 	});
  
 	$("#owl-demo-1").owlCarousel({
